@@ -1,7 +1,7 @@
 "use client";
 
 import Container from "../Container";
-import { Logo, Search } from "../Navbar";
+import { Logo, Search, UserMenu } from "../Navbar";
 
 type Props = {};
 
@@ -13,6 +13,7 @@ const Navbar = (props: Props) => {
           <div className="flex flex-grow justify-between items-center gap-3 md:gap-0">
             <Logo />
             <Search />
+            <UserMenu />
           </div>
         </Container>
       </div>
